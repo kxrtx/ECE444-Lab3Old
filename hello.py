@@ -48,8 +48,7 @@ def index():
 
 @app.errorhandler(404)
 def page_notfound(e):
-    return "HELLOOO WORLD"
-    #return render_template('404.html'), 404
+    return render_template('404.html'), 404
 
 
 
